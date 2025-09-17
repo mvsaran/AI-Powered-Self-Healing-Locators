@@ -1,0 +1,45 @@
+{
+  "searchBar": [
+    "input#twotabsearchtextbox",
+    "#nav-search-bar-form input[type='text']",
+    "input[aria-label='Search']",
+    "#nav-search input[type='text']",
+    "header input[type='text']",
+    "#twotabsearchtextbox",
+    "input[name='field-keywords']"
+  ],
+  "searchButton": [
+    "input#nav-search-submit-button",
+    "[type='submit'][aria-label*='search' i]",
+    "button[type='submit']",
+    "input.nav-input[type='submit']",
+    ".nav-search-submit input[type='submit']",
+    "form[role='search'] [type='submit']",
+    "[id*='search-submit']",
+    "//input[@type='submit' and contains(@class, 'nav-input')]",
+    "//button[contains(@aria-label, 'search') or contains(@aria-label, 'Search')]"
+  ],
+  "firstProductTitle": [
+    "[data-component-type='s-search-result'] h2 a span",
+    ".s-result-item h2 a span",
+    ".s-search-result h2 .a-text-normal",
+    ".s-card-container h2 .a-link-normal",
+    "[data-cel-widget*='search_result_']:nth-child(1) h2 span",
+    ".s-main-slot .s-result-item:nth-child(1) h2 span",
+    ".s-search-results .s-result-item:first-of-type h2",
+    "[data-uuid] h2 .a-link-normal",
+    "div[data-asin]:not([data-asin='']) h2 .a-text-normal",
+    "//div[contains(@class, 's-result-item') and @data-asin!=''][1]//h2//span[contains(@class, 'a-text-normal')]"
+  ],
+  "firstProductPrice": [
+    ".s-result-item:first-child .a-price .a-offscreen",
+    "[data-component-type='s-search-result']:first-child .a-price",
+    ".s-card-container:first-child .a-price .a-offscreen",
+    ".s-main-slot [data-index='0'] .a-price",
+    ".s-result-list .s-card-border:first-child .a-price",
+    ".s-price-instructions-style .a-price:first-child",
+    "[data-cel-widget*='search_result']:first-child .a-price .a-offscreen",
+    "//div[contains(@class, 's-result-item')][1]//span[contains(@class, 'a-price')]",
+    "//div[contains(@class, 's-card-container')][1]//span[contains(@class, 'a-price')]"
+  ]
+}
